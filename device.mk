@@ -16,11 +16,9 @@
 # Path
 DEVICE_PATH := device/samsung/m51
 
+# Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
-BOARD_BUILD_PRODUCT_IMAGE := true
-# PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
-PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
@@ -28,6 +26,9 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # APEX
 PRODUCT_COMPRESSED_APEX := true
+
+# VNDK
+PRODUCT_TARGET_VNDK_VERSION := 30
 
 # No A/B
 AB_OTA_UPDATER := false
@@ -182,7 +183,8 @@ PRODUCT_COPY_FILES += \
 
 # Health
 PRODUCT_PACKAGES += \
-    android.hardware.health@2.1.vendor
+    android.hardware.health@2.1-impl \
+    android.hardware.health@2.1-service
 
 # HIDL
 PRODUCT_PACKAGES += \
@@ -200,7 +202,9 @@ PRODUCT_COPY_FILES += \
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0-service.samsung \
-    libkeymaster4_1support.vendor
+    libskeymaster4device.vendor:64 \
+    libkeymaster4support.vendor:64 \
+    libkeymaster4_1support.vendor:64
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -307,7 +311,9 @@ PRODUCT_COPY_FILES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.samsung-libperfmgr \
-    android.hardware.power@1.2.vendor
+    android.hardware.power.stats@1.0-service.mock \
+    android.hardware.power@1.3 \
+    android.hardware.power@1.3.vendor
 
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
@@ -348,8 +354,7 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator-service.samsung \
-    android.hardware.light-service.samsung
+    android.hardware.vibrator-service.samsung 
 
 # Tether
 PRODUCT_PACKAGES += \
