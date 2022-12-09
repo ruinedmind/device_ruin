@@ -51,9 +51,6 @@ vendor/lib64/camera/com.samsung.tuned.lsi_gc5035_macro.bin
 vendor/lib64/camera/com.samsung.tuned.lsi_s5k3l6.bin
 vendor/lib64/camera/com.samsung.tuned.sony_imx616.bin
 vendor/lib64/camera/com.samsung.tuned.sony_imx682.bin
-vendor/lib64/camera/f_dual_calibration.bin
-vendor/lib64/camera/uw_dual_calibration.bin
-vendor/lib64/camera/w_dual_calibration.bin
 vendor/lib/hw/com.samsung.chi.override.so
 vendor/lib64/hw/com.samsung.chi.override.so
 vendor/lib/hw/camera.qcom.so
