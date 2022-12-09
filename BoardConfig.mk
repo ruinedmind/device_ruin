@@ -14,19 +14,19 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/a72q
+DEVICE_PATH := device/samsung/m51
 
-include device/samsung/sm7125-common/BoardConfigCommon.mk
+include device/samsung/ruin-common/BoardConfigCommon.mk
 
 # Kernel
-TARGET_KERNEL_CONFIG        := vendor/lineage-a72q_defconfig
+TARGET_KERNEL_CONFIG        := m51_defconfig
 BOARD_NAME                  := SRPTJ06B001
 
 # Display
 TARGET_SCREEN_DENSITY := 450
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := a72q
+TARGET_OTA_ASSERT_DEVICE := m51
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop

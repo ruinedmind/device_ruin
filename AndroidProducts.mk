@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_a72q.mk
+    $(LOCAL_DIR)/syberia_m51.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_a72q-userdebug \
-    lineage_a72q-user \
-    lineage_a72q-eng
+    syberia_m51-userdebug \
+    syberia_m51-user \
+    syberia_m51-eng

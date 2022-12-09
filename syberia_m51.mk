@@ -15,7 +15,7 @@
 #
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/a72q/device.mk)
+$(call inherit-product, device/samsung/m51/device.mk)
 
 # Inherit from the 64 bit configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -23,8 +23,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Syberia stuff
+$(call inherit-product, vendor/syberia/config/common_full_phone.mk)
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
@@ -34,15 +34,15 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_a72q
-PRODUCT_DEVICE := a72q
+PRODUCT_NAME := syberia_m51
+PRODUCT_DEVICE := m51
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A725F
+PRODUCT_MODEL := SM-M515F
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Fingerprint
-BUILD_FINGERPRINT := "samsung/a72qnsxx/qssi:12/SP1A.210812.016/A725FXXU4BVE3:user/release-keys"
-PRIVATE_BUILD_DESC := "a72qnsxx-user 12 SP1A.210812.016 A725FXXU4BVE3 release-keys"
+BUILD_FINGERPRINT := "samsung/m51nsxx/qssi:12/SP1A.210812.016/M515FXXS4DVF2:user/release-keys"
+PRIVATE_BUILD_DESC := "m51nsxx-user 12 SP1A.210812.016 M515FXXS4DVF2 release-keys"

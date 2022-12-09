@@ -14,19 +14,19 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/a72q
+DEVICE_PATH := device/samsung/m51
 
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 
 # call the common setup
-$(call inherit-product, device/samsung/sm7125-common/common.mk)
+$(call inherit-product, device/samsung/ruin-common/common.mk)
 
 # call the proprietary setup
-$(call inherit-product, vendor/samsung/a72q/a72q-vendor.mk)
+$(call inherit-product, vendor/samsung/m51/m51-vendor.mk)
 
 # Init files
 PRODUCT_PACKAGES += \
-    init.a72q.rc
+    init.m51.rc
 
 # Audio
 PRODUCT_COPY_FILES += \

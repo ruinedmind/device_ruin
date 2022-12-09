@@ -1,4 +1,4 @@
-# All blobs are from A725FXXU4BVE3, unless pinned
+# All blobs are from M515FXXS4DVF2, unless pinned
 
 # ACDB
 vendor/etc/audconf/OPEN/Global_cal.acdb
@@ -15,51 +15,53 @@ vendor/lib/camera/components/com.samsung.node.smooth_transition.so
 vendor/lib/camera/components/com.samsung.node.uniplugin_recording.so
 vendor/lib/camera/components/com.samsung.node.uniplugin_vdis.so
 vendor/lib/camera/components/com.wrapper.stats.aec.so
-vendor/lib/camera/com.qti.eeprom.sec2qcconversion.so
-vendor/lib/camera/com.samsung.sensor.hi847.so
-vendor/lib64/camera/com.samsung.sensor.hi847.so
-vendor/lib/camera/com.samsung.sensormodule.0_0_sony_imx682.bin
-vendor/lib64/camera/com.samsung.sensormodule.0_0_sony_imx682.bin
-vendor/lib/camera/com.samsung.sensormodule.0_2_sony_dv_imx682_hw_2.bin
-vendor/lib64/camera/com.samsung.sensormodule.0_2_sony_dv_imx682_hw_2.bin
-vendor/lib/camera/com.samsung.sensormodule.0_3_lsi_dv_s5kgw1p_hw_2.bin
-vendor/lib64/camera/com.samsung.sensormodule.0_3_lsi_dv_s5kgw1p_hw_2.bin
-vendor/lib/camera/com.samsung.sensormodule.0_3_lsi_dv_s5kgw1p_hw_2_otp.bin
-vendor/lib64/camera/com.samsung.sensormodule.0_3_lsi_dv_s5kgw1p_hw_2_otp.bin
-vendor/lib/camera/com.samsung.sensormodule.3_0_hynix_hi847.bin
-vendor/lib64/camera/com.samsung.sensormodule.3_0_hynix_hi847.bin
-vendor/lib/camera/com.samsung.sensormodule.3_1_hynix_dv_hi847_hw_2.bin
-vendor/lib64/camera/com.samsung.sensormodule.3_1_hynix_dv_hi847_hw_2.bin
+vendor/lib/camera/com.qti.eeprom.n24s64b_imx616.so
+vendor/lib/camera/com.samsung.sensor.gc5035.so
+vendor/lib64/camera/com.samsung.sensor.gc5035.so
+vendor/lib/camera/com.samsung.sensor.gc5035_macro.so
+vendor/lib/camera/com.samsung.sensor.imx616.so
+vendor/lib/camera/com.samsung.sensor.imx682.so
+vendor/lib/camera/com.samsung.sensor.s5k3l6.so
+vendor/lib/camera/com.samsung.sensormodule.0_sony_imx682.bin
+vendor/lib/camera/com.samsung.sensormodule.1_sony_imx616.bin
+vendor/lib/camera/com.samsung.sensormodule.2_lsi_s5k3l6.bin
+vendor/lib/camera/com.samsung.sensormodule.3_lsi_gc5035.bin
 vendor/lib/camera/com.samsung.sensormodule.4_lsi_gc5035_macro.bin
-vendor/lib64/camera/com.samsung.sensormodule.4_lsi_gc5035_macro.bin
-vendor/lib/camera/com.samsung.tuned.hynix_hi1336.bin
-vendor/lib64/camera/com.samsung.tuned.hynix_hi1336.bin
-vendor/lib/camera/com.samsung.tuned.hynix_hi847.bin
-vendor/lib64/camera/com.samsung.tuned.hynix_hi847.bin
+vendor/lib/camera/com.samsung.sensormodule.8_sony_imx616_full.bin
+vendor/lib/camera/com.samsung.tuned.lsi_gc5035.bin
+vendor/lib/camera/com.samsung.tuned.lsi_gc5035_macro.bin
 vendor/lib/camera/com.samsung.tuned.lsi_s5k3l6.bin
-vendor/lib64/camera/com.samsung.tuned.lsi_s5k3l6.bin
-vendor/lib/camera/com.samsung.tuned.lsi_s5kgw1p.bin
-vendor/lib64/camera/com.samsung.tuned.lsi_s5kgw1p.bin
+vendor/lib/camera/com.samsung.tuned.sony_imx616.bin
 vendor/lib/camera/com.samsung.tuned.sony_imx682.bin
-vendor/lib64/camera/com.samsung.tuned.sony_imx682.bin
-vendor/lib/camera/ois_mcu_stm32g_fw.bin
+vendor/lib/camera/f_dual_calibration.bin
 vendor/lib/camera/uw_dual_calibration.bin
+vendor/lib/camera/w_dual_calibration.bin
+vendor/lib64/camera/com.samsung.sensor.gc5035_macro.so
+vendor/lib64/camera/com.samsung.sensor.imx616.so
+vendor/lib64/camera/com.samsung.sensor.imx682.so
+vendor/lib64/camera/com.samsung.sensor.s5k3l6.so
+vendor/lib64/camera/com.samsung.sensormodule.0_sony_imx682.bin
+vendor/lib64/camera/com.samsung.sensormodule.1_sony_imx616.bin
+vendor/lib64/camera/com.samsung.sensormodule.2_lsi_s5k3l6.bin
+vendor/lib64/camera/com.samsung.sensormodule.3_lsi_gc5035.bin
+vendor/lib64/camera/com.samsung.sensormodule.4_lsi_gc5035_macro.bin
+vendor/lib64/camera/com.samsung.sensormodule.8_sony_imx616_full.bin
+vendor/lib64/camera/com.samsung.tuned.lsi_gc5035.bin
+vendor/lib64/camera/com.samsung.tuned.lsi_gc5035_macro.bin
+vendor/lib64/camera/com.samsung.tuned.lsi_s5k3l6.bin
+vendor/lib64/camera/com.samsung.tuned.sony_imx616.bin
+vendor/lib64/camera/com.samsung.tuned.sony_imx682.bin
+vendor/lib64/camera/f_dual_calibration.bin
+vendor/lib64/camera/uw_dual_calibration.bin
+vendor/lib64/camera/w_dual_calibration.bin
 vendor/lib/hw/com.samsung.chi.override.so
 vendor/lib64/hw/com.samsung.chi.override.so
 vendor/lib/hw/camera.qcom.so
 vendor/lib64/hw/camera.qcom.so
-vendor/lib/libIMUSensor.so
-vendor/lib64/libIMUSensor.so
-vendor/lib/libsec2qc_conversion.so
-vendor/lib64/libsec2qc_conversion.so
 vendor/lib/libvdis_interface.so
 vendor/lib64/libvdis_interface.so
 
 # Fingerprint
-vendor/lib/libbauthserver.so
-vendor/lib64/libbauthserver.so
-vendor/lib/libbauthtzcommon.so
-vendor/lib64/libbauthtzcommon.so
 vendor/lib/libsynaFpSensorTestNwd.so
 vendor/lib64/libsynaFpSensorTestNwd.so
 vendor/lib/libegis_fp_normal_sensor_test.so
@@ -70,9 +72,40 @@ vendor/lib/libgf_in_system_lib.so
 vendor/lib64/libgf_in_system_lib.so
 
 # Graphics
-vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E3FC3_AMS667YM01_FHD.xml
+vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E3FA9_AMB667UM07_FHD.xml
+vendor/etc/qdcm_calib_data_ss_dsi_panel_SW83106_FHD.xml
+vendor/etc/qdcm_calib_data_ss_dsi_panel_SW83106_WM6676Z21_FHD.xml
 
 # Sensors
-vendor/etc/sensors/config/atoll_qrd_ak991x_0.json
-vendor/etc/sensors/config/atoll_qrd_lsm6dso_0.json
+vendor/etc/sensors/config/default_sensors.json
+vendor/etc/sensors/config/lito_mmc5603x_0.json
+vendor/etc/sensors/config/lito_mmc5603x_1.json
+vendor/etc/sensors/config/lito_mmc5603x_2.json
+vendor/etc/sensors/config/lito_mmc5603x_3.json
+vendor/etc/sensors/config/lsm6dsm_0.json
+vendor/etc/sensors/config/sdmmagpie_lsm6dsm_0.json
+vendor/etc/sensors/config/sdmmagpie_power_0.json
+vendor/etc/sensors/config/sdmmagpie_stk3a6x_0.json
+vendor/etc/sensors/config/sdmmagpie_stk3a9x_0.json
+vendor/etc/sensors/config/sns_amd.json
+vendor/etc/sensors/config/sns_amd_sw_disabled.json
+vendor/etc/sensors/config/sns_amd_sw_enabled.json
+vendor/etc/sensors/config/sns_aont.json
+vendor/etc/sensors/config/sns_ccd.json
+vendor/etc/sensors/config/sns_cm.json
+vendor/etc/sensors/config/sns_dae.json
+vendor/etc/sensors/config/sns_diag_filter.json
+vendor/etc/sensors/config/sns_fmv.json
+vendor/etc/sensors/config/sns_fmv_legacy.json
+vendor/etc/sensors/config/sns_geomag_rv.json
+vendor/etc/sensors/config/sns_gyro_cal.json
 vendor/etc/sensors/config/sns_hw_revision.json
+vendor/etc/sensors/config/sns_rmd.json
+vendor/etc/sensors/config/sns_mag_cal.json
+vendor/etc/sensors/config/sns_rotv.json
+vendor/etc/sensors/config/sns_smd.json
+vendor/etc/sensors/config/sns_tilt.json
+vendor/etc/sensors/config/sns_tilt_sw_disabled.json
+vendor/etc/sensors/config/sns_tilt_sw_enabled.json
+vendor/etc/sensors/config/stk3a6x_0.json
+vendor/etc/sensors/config/stk3a9x_0.json
