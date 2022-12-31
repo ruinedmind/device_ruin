@@ -1,6 +1,6 @@
 [
     {
-        "repository": "device_ruin-common",
-        "target_path": "device/samsung/ruin-common"
+        "repository": "device-common",
+        "target_path": "device/samsung/m51-common"
     }
 ]

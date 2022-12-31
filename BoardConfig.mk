@@ -16,14 +16,14 @@
 
 DEVICE_PATH := device/samsung/m51
 
-include device/samsung/ruin-common/BoardConfigCommon.mk
+include device/samsung/m51-common/BoardConfigCommon.mk
 
 # Kernel
 TARGET_KERNEL_CONFIG        := m51_defconfig
-BOARD_NAME                  := SRPTJ06B001
+BOARD_NAME                  := sm6150
 
 # Display
-TARGET_SCREEN_DENSITY := 450
+TARGET_SCREEN_DENSITY := 420
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := m51
