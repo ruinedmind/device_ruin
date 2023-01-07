@@ -1,6 +1,10 @@
 [
-    {
-        "repository": "device-common",
-        "target_path": "device/samsung/m51-common"
-    }
+  {
+    "repository": "android_kernel_samsung_sm7125",
+    "target_path": "kernel/samsung/sm7125"
+  },
+  {
+        "repository": "android_hardware_samsung",
+        "target_path": "hardware/samsung"
+  }
 ]

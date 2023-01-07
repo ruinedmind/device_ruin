@@ -7,7 +7,7 @@
 
 set -e
 
-DEVICE_COMMON=m51
+DEVICE_COMMON=sm7125-common
 VENDOR=samsung
 
 # Load extractutils and do some sanity checks
@@ -27,7 +27,7 @@ source "${HELPER}"
 setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${ANDROID_ROOT}" true
 
 # Warning headers and guards
-write_headers "m51"
+write_headers "a52q a72q"
 
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
 
