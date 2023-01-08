@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 PixelOS Android
+# Copyright (C) 2023 PixelOS Android
 #
 # SPDX-License-Identifier: Apache-2.0
 #

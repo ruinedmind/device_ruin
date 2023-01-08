@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 PixelOS Android
+# Copyright (C) 2023 PixelOS Android
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -133,7 +133,10 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # SEPolicy
+TARGET_SEPOLICY_DIR := msmsteppe
+include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
 
 # Verified Boot
 BOARD_AVB_ENABLE := true

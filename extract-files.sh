@@ -1,12 +1,12 @@
 #
-# Copyright (C) 2022 PixelOS Android
+# Copyright (C) 2023 PixelOS Android
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 set -e
 
-DEVICE=a70q
+DEVICE=m51
 VENDOR=samsung
 
 # Load extract_utils and do some sanity checks

@@ -6,10 +6,10 @@
 
 set -e
 
-DEVICE=a70q
+DEVICE=m51
 VENDOR=samsung
 
-INITIAL_COPYRIGHT_YEAR=2019
+INITIAL_COPYRIGHT_YEAR=2023
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
